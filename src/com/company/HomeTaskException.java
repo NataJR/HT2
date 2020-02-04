@@ -1,7 +1,7 @@
 package com.company;
 
 public class HomeTaskException {
-        public static void main(String[] args) {
+        public static void main(String[] args) throws MyArrayDataException {
                 Object[][] arr;
                 int sum = 0;
                 try {

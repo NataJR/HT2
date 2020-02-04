@@ -1,10 +1,9 @@
 package com.company;
 
 public class MyArrayDataException extends java.lang.Exception {
-    int sum;
+    String sum;
 
-    public MyArrayDataException(int sum) {
-
+    public MyArrayDataException(String sum) {
         this.sum = sum;
 
     }

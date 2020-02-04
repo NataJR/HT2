@@ -1,15 +1,15 @@
 package com.company;
 
    public class MyArraySizeException extends java.lang.Exception {
-       private int number;
+       private String number;
 
-       public MyArraySizeException(int number) {
+       public MyArraySizeException(String number) {
            this.number = number;
 
        }
 
        public int getNumber() {
-           int number = number;
+           int number = 0;
            return number;
 
        }
